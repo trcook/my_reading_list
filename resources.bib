@@ -1,19 +1,99 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Tom Cook at 2017-01-06 10:44:58 -0600 
+%% Created for Tom Cook at 2017-03-02 13:28:42 -0600 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
 
+@phdthesis{Gal2016Uncertainty,
+	Author = {Gal, Yarin},
+	Date-Added = {2017-03-02 19:28:32 +0000},
+	Date-Modified = {2017-03-02 19:28:32 +0000},
+	School = {University of Cambridge},
+	Title = {Uncertainty in Deep Learning},
+	Year = {2016}}
+
+@article{zhou:20172a,
+	Abstract = {In this paper, we propose gcForest, a decision tree ensemble approach with performance highly competitive to deep neural networks. In contrast to deep neural networks which require great effort in hyper-parameter tuning, gcForest is much easier to train. Actually, even when gcForest is applied to different data from different domains, excellent performance can be achieved by almost same settings of hyper-parameters. The training process of gcForest is efficient and scalable. In our experiments its training time running on a PC is comparable to that of deep neural networks running with GPU facilities, and the efficiency advantage may be more apparent because gcForest is naturally apt to parallel implementation. Furthermore, in contrast to deep neural networks which require large-scale training data, gcForest can work well even when there are only small-scale training data. Moreover, as a tree-based approach, gcForest should be easier for theoretical analysis than deep neural networks.},
+	Author = {Zhi-Hua Zhou and Ji Feng},
+	Date-Added = {2017-03-02 19:27:59 +0000},
+	Date-Modified = {2017-03-02 19:27:59 +0000},
+	Eprint = {1702.08835},
+	Month = {02},
+	Title = {Deep Forest: Towards An Alternative to Deep Neural Networks},
+	Url = {https://arxiv.org/abs/1702.08835},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1702.08835}}
+
+@article{wang:20172a,
+	Abstract = {This paper is a review of the evolutionary history of deep learning models. It covers from the genesis of neural networks when associationism modeling of the brain is studied, to the models that dominate the last decade of research in deep learning like convolutional neural networks, deep belief networks, and recurrent neural networks, and extends to popular recent models like variational autoencoder and generative adversarial nets. In addition to a review of these models, this paper primarily focuses on the precedents of the models above, examining how the initial ideas are assembled to construct the early models and how these preliminary models are developed into their current forms. Many of these evolutionary paths last more than half a century and have a diversity of directions. For example, CNN is built on prior knowledge of biological vision system; DBN is evolved from a trade-off of modeling power and computation complexity of graphical models and many nowadays models are neural counterparts of ancient linear models. This paper reviews these evolutionary paths and offers a concise thought flow of how these models are developed, and aims to provide a thorough background for deep learning. More importantly, along with the path, this paper summarizes the gist behind these milestones and proposes many directions to guide the future research of deep learning.},
+	Author = {Haohan Wang and Bhiksha Raj},
+	Date-Added = {2017-03-02 19:27:42 +0000},
+	Date-Modified = {2017-03-02 19:27:42 +0000},
+	Eprint = {1702.07800},
+	Month = {02},
+	Title = {On the Origin of Deep Learning},
+	Url = {https://arxiv.org/abs/1702.07800},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1702.07800}}
+
+@article{parisotto:20172a,
+	Abstract = {A critical component to enabling intelligent reasoning in partially observable environments is memory. Despite this importance, Deep Reinforcement Learning (DRL) agents have so far used relatively simple memory architectures, with the main methods to overcome partial observability being either a temporal convolution over the past k frames or an LSTM layer. More recent work (Oh et al., 2016) has went beyond these architectures by using memory networks which can allow more sophisticated addressing schemes over the past k frames. But even these architectures are unsatisfactory due to the reason that they are limited to only remembering information from the last k frames. In this paper, we develop a memory system with an adaptable write operator that is customized to the sorts of 3D environments that DRL agents typically interact with. This architecture, called the Neural Map, uses a spatially structured 2D memory image to learn to store arbitrary information about the environment over long time lags. We demonstrate empirically that the Neural Map surpasses previous DRL memories on a set of challenging 2D and 3D maze environments and show that it is capable of generalizing to environments that were not seen during training.},
+	Author = {Emilio Parisotto and Ruslan Salakhutdinov},
+	Date-Added = {2017-03-02 19:27:34 +0000},
+	Date-Modified = {2017-03-02 19:27:34 +0000},
+	Eprint = {1702.08360},
+	Month = {02},
+	Title = {Neural Map: Structured Memory for Deep Reinforcement Learning},
+	Url = {https://arxiv.org/abs/1702.08360},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1702.08360}}
+
+@article{mao:20162a,
+	Abstract = {Unsupervised learning with generative adversarial networks (GANs) has proven hugely successful. Regular GANs hypothesize the discriminator as a classifier with the sigmoid cross entropy loss function. This loss function, however, may lead to the vanishing gradient problem during the learning process. To overcome such problem, here we propose the Least Squares Generative Adversarial Networks (LSGANs) that adopt the least squares loss function for the discriminator. We show that minimizing the objective function of LSGAN yields minimizing the Pearson $\chi^2$ divergence. There are two benefits of LSGANs over regular GANs. First, LSGANs are able to generate higher quality images than regular GANs. Second, LSGANs performs more stable during the learning process. We evaluate the LSGANs on five scene datasets and the experimental results demonstrate that the generated images by LSGANs look more realistic than the ones generated by regular GANs. We also conduct two comparison experiments between LSGANs and regular GANs to illustrate the stability of LSGANs.},
+	Author = {Xudong Mao and Qing Li and Haoran Xie and Raymond Y.K. Lau and Zhen Wang},
+	Date-Added = {2017-03-02 19:27:27 +0000},
+	Date-Modified = {2017-03-02 19:27:27 +0000},
+	Eprint = {1611.04076},
+	Month = {11},
+	Title = {Least Squares Generative Adversarial Networks},
+	Url = {https://arxiv.org/abs/1611.04076},
+	Year = {2016},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1611.04076}}
+
+@article{nachum:20172a,
+	Abstract = {We formulate a new notion of softmax temporal consistency that generalizes the standard hard-max Bellman consistency usually considered in value based reinforcement learning (RL). In particular, we show how softmax consistent action values correspond to optimal policies that maximize entropy regularized expected reward. More importantly, we establish that softmax consistent action values and the optimal policy must satisfy a mutual compatibility property that holds across any state-action subsequence. Based on this observation, we develop a new RL algorithm, Path Consistency Learning (PCL), that minimizes the total inconsistency measured along multi-step subsequences extracted from both both on and off policy traces. An experimental evaluation demonstrates that PCL significantly outperforms strong actor-critic and Q-learning baselines across several benchmark tasks.},
+	Author = {Ofir Nachum and Mohammad Norouzi and Kelvin Xu and Dale Schuurmans},
+	Date-Added = {2017-03-02 19:27:04 +0000},
+	Date-Modified = {2017-03-02 19:27:04 +0000},
+	Eprint = {1702.08892},
+	Month = {02},
+	Title = {Bridging the Gap Between Value and Policy Based Reinforcement Learning},
+	Url = {https://arxiv.org/abs/1702.08892},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1702.08892}}
+
+@article{amos:20172a,
+	Abstract = {This paper presents OptNet, a network architecture that integrates optimization problems (here, specifically in the form of quadratic programs) as individual layers in larger end-to-end trainable deep networks. These layers allow complex dependencies between the hidden states to be captured that traditional convolutional and fully-connected layers are not able to capture. In this paper, we develop the foundations for such an architecture: we derive the equations to perform exact differentiation through these layers and with respect to layer parameters; we develop a highly efficient solver for these layers that exploits fast GPU-based batch solves within a primal-dual interior point method, and which provides backpropagation gradients with virtually no additional cost on top of the solve; and we highlight the application of these approaches in several problems. In one particularly standout example, we show that the method is capable of learning to play Sudoku given just input and output games, with no a priori information about the rules of the game; this task is virtually impossible for other neural network architectures that we have experimented with, and highlights the representation capabilities of our approach.},
+	Author = {Brandon Amos and J. Zico Kolter},
+	Date-Added = {2017-03-02 19:26:45 +0000},
+	Date-Modified = {2017-03-02 19:26:45 +0000},
+	Eprint = {1703.00443},
+	Month = {03},
+	Title = {OptNet: Differentiable Optimization as a Layer in Neural Networks},
+	Url = {https://arxiv.org/abs/1703.00443},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1703.00443}}
+
 @article{kaiser:20172a,
-	Author = {Lukasz Kaiser AND Ofir Nachum AND Aurko Roy AND Samy Bengio },
+	Author = {Lukasz Kaiser AND Ofir Nachum AND Aurko Roy AND Samy Bengio},
 	Date-Added = {2017-01-06 16:44:57 +0000},
 	Date-Modified = {2017-01-06 16:44:57 +0000},
 	Journal = {ICLR},
-	Title = {Learning to Remember Rare Events },
+	Title = {Learning to Remember Rare Events},
 	Url = {https://openreview.net/pdf?id=SJTQLdqlg},
 	Year = {2017},
 	Bdsk-Url-1 = {https://openreview.net/pdf?id=SJTQLdqlg}}
@@ -544,14 +624,12 @@
 	Year = {2016},
 	Bdsk-Url-1 = {http://ufldl.stanford.edu/tutorial/}}
 
-@manual{Department:aa,
-	Author = {Computer Science Department},
+@webpage{Department:aa,
+	Author = {Computer Science Department, Stanford University.},
 	Date-Added = {2016-09-27 21:01:27 +0000},
-	Date-Modified = {2016-09-27 21:03:02 +0000},
-	Organization = {Stanford University},
+	Date-Modified = {2017-03-02 19:23:33 +0000},
 	Title = {Deep Learning},
-	Url = {http://ufldl.stanford.edu/},
-	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QKi4uLy4uLy4uLy4uLy5UcmFzaC91ZmxkbC5zdGFuZm9yZC5lZHUuaHRtbNIXCxgZV05TLmRhdGFPEQGaAAAAAAGaAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADPReufSCsAAAA1ozsXdWZsZGwuc3RhbmZvcmQuZWR1Lmh0bWwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF08tdQQSHkAAAAAAAAAAAAEAAIAAAkgAAAAAAAAAAAAAAAAAAAABi5UcmFzaAAQAAgAAM9GMe8AAAARAAgAANQQjskAAAABAAwANaM7ACs/xAACZbgAAgA8TWFjaW50b3NoIEhEOlVzZXJzOgBqMXRyYzAxOgAuVHJhc2g6AHVmbGRsLnN0YW5mb3JkLmVkdS5odG1sAA4AMAAXAHUAZgBsAGQAbAAuAHMAdABhAG4AZgBvAHIAZAAuAGUAZAB1AC4AaAB0AG0AbAAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASACxVc2Vycy9qMXRyYzAxLy5UcmFzaC91ZmxkbC5zdGFuZm9yZC5lZHUuaHRtbAATAAEvAAAVAAIADv//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOALsAwADIAmYCaAJtAngCgQKPApMCmgKjAqgCtQK4AsoCzQLSAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAtQ=}}
+	Url = {http://ufldl.stanford.edu/}}
 
 @article{kriesel2007brief,
 	Author = {Kriesel, David},
