@@ -1,12 +1,64 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Tom Cook at 2017-04-27 12:58:10 -0500 
+%% Created for Tom Cook at 2017-05-17 16:09:16 -0500 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@url{le:2a,
+	Author = {Quoc Le AND Barret Zoph},
+	Date-Added = {2017-05-17 21:08:13 +0000},
+	Date-Modified = {2017-05-17 21:09:15 +0000},
+	Title = {Using Machine Learning to Explore Neural Network Architecture},
+	Url = {https://research.googleblog.com/2017/05/using-machine-learning-to-explore.html},
+	Urldate = {05/17/2017}}
+
+@url{husain:2a,
+	Author = {Hamel Husain AND Nick Handel},
+	Date-Added = {2017-05-17 21:06:32 +0000},
+	Date-Modified = {2017-05-17 21:07:41 +0000},
+	Title = {Automated Machine Learning --- A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb},
+	Url = {https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8},
+	Urldate = {05/17/2017}}
+
+@article{gehring:20172a,
+	Abstract = {The prevalent approach to sequence to sequence learning maps an input sequence to a variable length output sequence via recurrent neural networks. We introduce an architecture based entirely on convolutional neural networks. Compared to recurrent models, computations over all elements can be fully parallelized during training and optimization is easier since the number of non-linearities is fixed and independent of the input length. Our use of gated linear units eases gradient propagation and we equip each decoder layer with a separate attention module. We outperform the accuracy of the deep LSTM setup of Wu et al. (2016) on both WMT'14 English-German and WMT'14 English-French translation at an order of magnitude faster speed, both on GPU and CPU.},
+	Author = {Jonas Gehring and Michael Auli and David Grangier and Denis Yarats and Yann N. Dauphin},
+	Date-Added = {2017-05-17 21:06:01 +0000},
+	Date-Modified = {2017-05-17 21:06:01 +0000},
+	Eprint = {1705.03122},
+	Month = {05},
+	Title = {Convolutional Sequence to Sequence Learning},
+	Url = {https://arxiv.org/abs/1705.03122},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1705.03122}}
+
+@article{huang:20172a,
+	Abstract = {Ensembles of neural networks are known to be much more robust and accurate than individual networks. However, training multiple deep networks for model averaging is computationally expensive. In this paper, we propose a method to obtain the seemingly contradictory goal of ensembling multiple neural networks at no additional training cost. We achieve this goal by training a single neural network, converging to several local minima along its optimization path and saving the model parameters. To obtain repeated rapid convergence, we leverage recent work on cyclic learning rate schedules. The resulting technique, which we refer to as Snapshot Ensembling, is simple, yet surprisingly effective. We show in a series of experiments that our approach is compatible with diverse network architectures and learning tasks. It consistently yields lower error rates than state-of-the-art single models at no additional training cost, and compares favorably with traditional network ensembles. On CIFAR-10 and CIFAR-100 our DenseNet Snapshot Ensembles obtain error rates of 3.4% and 17.4% respectively.},
+	Author = {Gao Huang and Yixuan Li and Geoff Pleiss and Zhuang Liu and John E. Hopcroft and Kilian Q. Weinberger},
+	Date-Added = {2017-05-17 21:04:49 +0000},
+	Date-Modified = {2017-05-17 21:04:49 +0000},
+	Eprint = {1704.00109},
+	Month = {04},
+	Title = {Snapshot Ensembles: Train 1, get M for free},
+	Url = {https://arxiv.org/abs/1704.00109},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1704.00109}}
+
+@article{hansen:20172a,
+	Abstract = {We present a new deep meta reinforcement learner, which we call Deep Episodic Value Iteration (DEVI). DEVI uses a deep neural network to learn a similarity metric for a non-parametric model-based reinforcement learning algorithm. Our model is trained end-to-end via back-propagation. Despite being trained using the model-free Q-learning objective, we show that DEVI's model-based internal structure provides `one-shot' transfer to changes in reward and transition structure, even for tasks with very high-dimensional state spaces.},
+	Author = {Steven Stenberg Hansen},
+	Date-Added = {2017-05-17 21:04:01 +0000},
+	Date-Modified = {2017-05-17 21:04:08 +0000},
+	Eprint = {1705.03562},
+	Month = {05},
+	Title = {Deep Episodic Value Iteration for Model-based Meta-Reinforcement Learning},
+	Url = {https://arxiv.org/abs/1705.03562},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1705.03562}}
 
 @book{nielsen:20172a,
 	Author = {Michael Nielsen},
@@ -15,7 +67,8 @@
 	Publisher = {web},
 	Title = {Neural Networks and Deep Learning},
 	Url = {http://neuralnetworksanddeeplearning.com/index.html},
-	Year = {2017}}
+	Year = {2017},
+	Bdsk-Url-1 = {http://neuralnetworksanddeeplearning.com/index.html}}
 
 @article{li:20172b,
 	Abstract = {To obtain uncertainty estimates with real-world Bayesian deep learning models, practical inference approximations are needed. Dropout variational inference (VI) for example has been used for machine vision and medical applications, but VI can severely underestimates model uncertainty. Alpha-divergences are alternative divergences to VI's KL objective, which are able to avoid VI's uncertainty underestimation. But these are hard to use in practice: existing techniques can only use Gaussian approximating distributions, and require existing models to be changed radically, thus are of limited use for practitioners. We propose a re-parametrisation of the alpha-divergence objectives, deriving a simple inference technique which, together with dropout, can be easily implemented with existing models by simply changing the loss of the model. We demonstrate improved uncertainty estimates and accuracy compared to VI in dropout networks. We study our model's epistemic uncertainty far away from the data using adversarial images, showing that these can be distinguished from non-adversarial images by examining our model's uncertainty.},
@@ -48,7 +101,8 @@
 	Publisher = {MIT Press},
 	Title = {Gaussian Processes for Machine Learning},
 	Url = {http://www.gaussianprocess.org/gpml/chapters/},
-	Year = {2006}}
+	Year = {2006},
+	Bdsk-Url-1 = {http://www.gaussianprocess.org/gpml/chapters/}}
 
 @electronic{olah:2a,
 	Author = {Christopher Olah},
@@ -56,7 +110,8 @@
 	Date-Modified = {2017-04-27 17:53:42 +0000},
 	Title = {Understanding LSTM Networks},
 	Url = {http://colah.github.io/posts/2015-08-Understanding-LSTMs/},
-	Urldate = {2015}}
+	Urldate = {2015},
+	Bdsk-Url-1 = {http://colah.github.io/posts/2015-08-Understanding-LSTMs/}}
 
 @electronic{karpathy:2a,
 	Author = {Andrej Karpathy},
@@ -64,7 +119,8 @@
 	Date-Modified = {2017-04-27 17:52:08 +0000},
 	Title = {The Unreasonable Effectiveness of Recurrent Neural Networks},
 	Url = {http://karpathy.github.io/2015/05/21/rnn-effectiveness/},
-	Urldate = {May 21, 2015}}
+	Urldate = {May 21, 2015},
+	Bdsk-Url-1 = {http://karpathy.github.io/2015/05/21/rnn-effectiveness/}}
 
 @article{qi:20082a,
 	Author = {Qi, Min and Zhang, G Peter},
@@ -84,7 +140,8 @@
 	Date-Modified = {2017-04-27 17:50:10 +0000},
 	Title = {An overview of gradient descent optimization algorithms},
 	Url = {http://sebastianruder.com/optimizing-gradient-descent/},
-	Urldate = {2017}}
+	Urldate = {2017},
+	Bdsk-Url-1 = {http://sebastianruder.com/optimizing-gradient-descent/}}
 
 @electronic{koller:2a,
 	Annote = {https://www.youtube.com/playlist?list=PL50E6E80E8525B59C
@@ -96,7 +153,8 @@ https://www.coursera.org/learn/probabilistic-graphical-models
 	Howpublished = {web course},
 	Title = {probabilistic graph models},
 	Url = {http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=ProbabilisticGraphicalModels},
-	Urldate = {2017}}
+	Urldate = {2017},
+	Bdsk-Url-1 = {http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=ProbabilisticGraphicalModels}}
 
 @article{nielsen:20152a,
 	Author = {Nielsen, Michael A},
