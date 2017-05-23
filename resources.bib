@@ -1,12 +1,24 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Tom Cook at 2017-05-17 16:12:08 -0500 
+%% Created for Tom Cook at 2017-05-23 11:57:04 -0500 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@article{gal:20172a,
+	Abstract = {Dropout is used as a practical tool to obtain uncertainty estimates in large vision models and reinforcement learning (RL) tasks. But to obtain well-calibrated uncertainty estimates, a grid-search over the dropout probabilities is necessary - a prohibitive operation with large models, and an impossible one with RL. We propose a new dropout variant which gives improved performance and better calibrated uncertainties. Relying on recent developments in Bayesian deep learning, we use a continuous relaxation of dropout's discrete masks. Together with a principled optimisation objective, this allows for automatic tuning of the dropout probability in large models, and as a result faster experimentation cycles. In RL this allows the agent to adapt its uncertainty dynamically as more data is observed. We analyse the proposed variant extensively on a range of tasks, and give insights into common practice in the field where larger dropout probabilities are often used in deeper model layers.},
+	Author = {Yarin Gal and Jiri Hron and Alex Kendall},
+	Date-Added = {2017-05-23 16:56:55 +0000},
+	Date-Modified = {2017-05-23 16:57:03 +0000},
+	Eprint = {1705.07832},
+	Month = {05},
+	Title = {Concrete Dropout},
+	Url = {https://arxiv.org/abs/1705.07832},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1705.07832}}
 
 @article{zoph:20162a,
 	Abstract = {Neural networks are powerful and flexible models that work well for many difficult learning tasks in image, speech and natural language understanding. Despite their success, neural networks are still hard to design. In this paper, we use a recurrent network to generate the model descriptions of neural networks and train this RNN with reinforcement learning to maximize the expected accuracy of the generated architectures on a validation set. On the CIFAR-10 dataset, our method, starting from scratch, can design a novel network architecture that rivals the best human-invented architecture in terms of test set accuracy. Our CIFAR-10 model achieves a test error rate of 3.65, which is 0.09 percent better and 1.05x faster than the previous state-of-the-art model that used a similar architectural scheme. On the Penn Treebank dataset, our model can compose a novel recurrent cell that outperforms the widely-used LSTM cell, and other state-of-the-art baselines. Our cell achieves a test set perplexity of 62.4 on the Penn Treebank, which is 3.6 perplexity better than the previous state-of-the-art model. The cell can also be transferred to the character language modeling task on PTB and achieves a state-of-the-art perplexity of 1.214.},
@@ -26,7 +38,8 @@
 	Date-Modified = {2017-05-17 21:09:15 +0000},
 	Title = {Using Machine Learning to Explore Neural Network Architecture},
 	Url = {https://research.googleblog.com/2017/05/using-machine-learning-to-explore.html},
-	Urldate = {05/17/2017}}
+	Urldate = {05/17/2017},
+	Bdsk-Url-1 = {https://research.googleblog.com/2017/05/using-machine-learning-to-explore.html}}
 
 @url{husain:2a,
 	Author = {Hamel Husain AND Nick Handel},
@@ -34,7 +47,8 @@
 	Date-Modified = {2017-05-17 21:07:41 +0000},
 	Title = {Automated Machine Learning --- A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb},
 	Url = {https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8},
-	Urldate = {05/17/2017}}
+	Urldate = {05/17/2017},
+	Bdsk-Url-1 = {https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8}}
 
 @article{gehring:20172a,
 	Abstract = {The prevalent approach to sequence to sequence learning maps an input sequence to a variable length output sequence via recurrent neural networks. We introduce an architecture based entirely on convolutional neural networks. Compared to recurrent models, computations over all elements can be fully parallelized during training and optimization is easier since the number of non-linearities is fixed and independent of the input length. Our use of gated linear units eases gradient propagation and we equip each decoder layer with a separate attention module. We outperform the accuracy of the deep LSTM setup of Wu et al. (2016) on both WMT'14 English-German and WMT'14 English-French translation at an order of magnitude faster speed, both on GPU and CPU.},
