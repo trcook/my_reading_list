@@ -1,12 +1,134 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Tom Cook at 2017-08-24 09:48:29 -0500 
+%% Created for Tom Cook at 2018-01-04 14:35:48 -0600 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@misc{yu:20172a,
+	Author = {Lantao Yu},
+	Date-Added = {2018-01-04 20:34:58 +0000},
+	Date-Modified = {2018-01-04 20:35:47 +0000},
+	Howpublished = {GitHub},
+	Title = {Paper Collection of Multi-Agent Reinforcement Learning (MARL)},
+	Url = {https://github.com/LantaoYu/MARL-Papers#review-papers},
+	Year = {2017}}
+
+@article{leibo:20172a,
+	Abstract = {Matrix games like Prisoner's Dilemma have guided research on social dilemmas for decades. However, they necessarily treat the choice to cooperate or defect as an atomic action. In real-world social dilemmas these choices are temporally extended. Cooperativeness is a property that applies to policies, not elementary actions. We introduce sequential social dilemmas that share the mixed incentive structure of matrix game social dilemmas but also require agents to learn policies that implement their strategic intentions. We analyze the dynamics of policies learned by multiple self-interested independent learning agents, each using its own deep Q-network, on two Markov games we introduce here: 1. a fruit Gathering game and 2. a Wolfpack hunting game. We characterize how learned behavior in each domain changes as a function of environmental factors including resource abundance. Our experiments show how conflict can emerge from competition over shared resources and shed light on how the sequential nature of real world social dilemmas affects cooperation.},
+	Author = {Joel Z. Leibo and Vinicius Zambaldi and Marc Lanctot and Janusz Marecki and Thore Graepel},
+	Date-Added = {2018-01-04 20:34:47 +0000},
+	Date-Modified = {2018-01-04 20:34:47 +0000},
+	Eprint = {1702.03037},
+	Month = {02},
+	Title = {Multi-agent Reinforcement Learning in Sequential Social Dilemmas},
+	Url = {https://arxiv.org/abs/1702.03037},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1702.03037}}
+
+@article{marinescu:20142a,
+	Abstract = {Multi-Agent Reinforcement Learning (MARL) is a widely used technique for optimization in decentralised control problems. However, most applications of MARL are in static environments, and are not suitable when agent behaviour and environment conditions are dynamic and uncertain. Addressing uncertainty in such environments remains a challenging problem for MARL-based systems. The dynamic nature of the environment causes previous knowledge of how agents interact to become outdated. Advanced knowledge of potential changes through prediction significantly supports agents converging to near-optimal control solutions. In this paper we propose P-MARL, a decentralised MARL algorithm enhanced by a prediction mechanism that provides accurate information regarding up-coming changes in the environment. This prediction is achieved by employing an Artificial Neural Network combined with a Self-Organising Map that detects and matches changes in the environment. The proposed algorithm is validated in a realistic smart-grid scenario, and provides a 92% Pareto efficient solution to an electric vehicle charging problem.},
+	Author = {Andrei Marinescu and Ivana Dusparic and Adam Taylor and Vinny Cahill and Siobh{\'a}n Clarke},
+	Date-Added = {2018-01-04 20:32:32 +0000},
+	Date-Modified = {2018-01-04 20:32:32 +0000},
+	Eprint = {1409.4561},
+	Month = {09},
+	Title = {Decentralised Multi-Agent Reinforcement Learning for Dynamic and Uncertain Environments},
+	Url = {https://arxiv.org/abs/1409.4561},
+	Year = {2014},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1409.4561}}
+
+@article{omidshafiei:20172a,
+	Abstract = {Many real-world tasks involve multiple agents with partial observability and limited communication. Learning is challenging in these settings due to local viewpoints of agents, which perceive the world as non-stationary due to concurrently-exploring teammates. Approaches that learn specialized policies for individual tasks face problems when applied to the real world: not only do agents have to learn and store distinct policies for each task, but in practice identities of tasks are often non-observable, making these approaches inapplicable. This paper formalizes and addresses the problem of multi-task multi-agent reinforcement learning under partial observability. We introduce a decentralized single-task learning approach that is robust to concurrent interactions of teammates, and present an approach for distilling single-task policies into a unified policy that performs well across multiple related tasks, without explicit provision of task identity.},
+	Author = {Shayegan Omidshafiei and Jason Pazis and Christopher Amato and Jonathan P. How and John Vian},
+	Date-Added = {2018-01-04 20:31:41 +0000},
+	Date-Modified = {2018-01-04 20:31:41 +0000},
+	Eprint = {1703.06182},
+	Month = {03},
+	Title = {Deep Decentralized Multi-task Multi-Agent Reinforcement Learning under Partial Observability},
+	Url = {https://arxiv.org/abs/1703.06182},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1703.06182}}
+
+@article{foerster:20172a,
+	Abstract = {Many real-world problems, such as network packet routing and urban traffic control, are naturally modeled as multi-agent reinforcement learning (RL) problems. However, existing multi-agent RL methods typically scale poorly in the problem size. Therefore, a key challenge is to translate the success of deep learning on single-agent RL to the multi-agent setting. A major stumbling block is that independent Q-learning, the most popular multi-agent RL method, introduces nonstationarity that makes it incompatible with the experience replay memory on which deep Q-learning relies. This paper proposes two methods that address this problem: 1) using a multi-agent variant of importance sampling to naturally decay obsolete data and 2) conditioning each agent's value function on a fingerprint that disambiguates the age of the data sampled from the replay memory. Results on a challenging decentralised variant of StarCraft unit micromanagement confirm that these methods enable the successful combination of experience replay with multi-agent RL.},
+	Author = {Jakob Foerster and Nantas Nardelli and Gregory Farquhar and Triantafyllos Afouras and Philip H. S. Torr and Pushmeet Kohli and Shimon Whiteson},
+	Date-Added = {2018-01-04 20:30:16 +0000},
+	Date-Modified = {2018-01-04 20:30:16 +0000},
+	Eprint = {1702.08887},
+	Month = {02},
+	Title = {Stabilising Experience Replay for Deep Multi-Agent Reinforcement Learning},
+	Url = {https://arxiv.org/abs/1702.08887},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1702.08887}}
+
+@article{lowe:20172a,
+	Abstract = {We explore deep reinforcement learning methods for multi-agent domains. We begin by analyzing the difficulty of traditional algorithms in the multi-agent case: Q-learning is challenged by an inherent non-stationarity of the environment, while policy gradient suffers from a variance that increases as the number of agents grows. We then present an adaptation of actor-critic methods that considers action policies of other agents and is able to successfully learn policies that require complex multi-agent coordination. Additionally, we introduce a training regimen utilizing an ensemble of policies for each agent that leads to more robust multi-agent policies. We show the strength of our approach compared to existing methods in cooperative as well as competitive scenarios, where agent populations are able to discover various physical and informational coordination strategies.},
+	Author = {Ryan Lowe and Yi Wu and Aviv Tamar and Jean Harb and Pieter Abbeel and Igor Mordatch},
+	Date-Added = {2018-01-04 20:29:29 +0000},
+	Date-Modified = {2018-01-04 20:29:29 +0000},
+	Eprint = {1706.02275},
+	Month = {06},
+	Title = {Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments},
+	Url = {https://arxiv.org/abs/1706.02275},
+	Year = {2017},
+	Bdsk-Url-1 = {https://arxiv.org/abs/1706.02275}}
+
+@article{busoniu:20082a,
+	Author = {Busoniu, Lucian and Babuska, Robert and De Schutter, Bart},
+	Date-Added = {2018-01-04 20:27:13 +0000},
+	Date-Modified = {2018-01-04 20:27:29 +0000},
+	Journal = {IEEE Transactions on Systems, Man, And Cybernetics-Part C: Applications and Reviews, 38 (2), 2008},
+	Publisher = {IEEE},
+	Title = {A comprehensive survey of multiagent reinforcement learning},
+	Url = {http://www.dcsc.tudelft.nl/~bdeschutter/pub/rep/07_019.pdf},
+	Year = {2008}}
+
+@article{busoniu:20102a,
+	Author = {Busoniu, Lucian and Babu{\v{s}}ka, Robert and De Schutter, Bart},
+	Date-Added = {2018-01-04 20:26:52 +0000},
+	Date-Modified = {2018-01-04 20:27:02 +0000},
+	Journal = {Innovations in multi-agent systems and applications-1},
+	Pages = {183--221},
+	Publisher = {Springer},
+	Title = {Multi-agent reinforcement learning: An overview},
+	Url = {http://www.dcsc.tudelft.nl/~bdeschutter/pub/rep/10_003.pdf},
+	Volume = {310},
+	Year = {2010}}
+
+@incollection{nowe:20122a,
+	Author = {Now{\'e}, Ann and Vrancx, Peter and De Hauwere, Yann-Micha{\"e}l},
+	Booktitle = {Reinforcement Learning},
+	Date-Added = {2018-01-04 20:26:23 +0000},
+	Date-Modified = {2018-01-04 20:26:37 +0000},
+	Pages = {441--470},
+	Publisher = {Springer},
+	Title = {Game theory and multi-agent reinforcement learning},
+	Url = {https://www.researchgate.net/publication/269100101_Game_Theory_and_Multi-agent_Reinforcement_Learning},
+	Year = {2012}}
+
+@article{bloembergen:20152a,
+	Author = {Bloembergen, Daan and Tuyls, Karl and Hennes, Daniel and Kaisers, Michael},
+	Date-Added = {2018-01-04 20:25:50 +0000},
+	Date-Modified = {2018-01-04 20:26:05 +0000},
+	Journal = {J. Artif. Intell. Res.(JAIR)},
+	Pages = {659--697},
+	Title = {Evolutionary Dynamics of Multi-Agent Learning: A Survey.},
+	Url = {https://jair.org/media/4818/live-4818-8818-jair.pdf},
+	Volume = {53},
+	Year = {2015}}
+
+@phdthesis{castaneda2016deep,
+	Author = {Castaneda, Alvaro Ovalle},
+	Date-Added = {2018-01-04 20:25:25 +0000},
+	Date-Modified = {2018-01-04 20:25:38 +0000},
+	School = {Master's thesis, School of Informatics, University of Edinburgh},
+	Title = {Deep Reinforcement Learning Variants of Multi-Agent Learning Algorithms},
+	Url = {https://project-archive.inf.ed.ac.uk/msc/20162091/msc_proj.pdf},
+	Year = {2016}}
 
 @book{elliott:20132a,
 	Author = {Elliott, Graham and Timmermann, Allan},
@@ -15,7 +137,8 @@
 	Publisher = {Elsevier},
 	Title = {Handbook of economic forecasting},
 	Url = {http://econpapers.repec.org/bookchap/eeeecofor/2.htm},
-	Year = {2013}}
+	Year = {2013},
+	Bdsk-Url-1 = {http://econpapers.repec.org/bookchap/eeeecofor/2.htm}}
 
 @inproceedings{szegedy2015going,
 	Author = {Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew},
@@ -71,16 +194,6 @@
 	Title = {Auto-association by multilayer perceptrons and singular value decomposition},
 	Volume = {59},
 	Year = {1988}}
-
-@inproceedings{Zeiler:2010,
-	Author = {Zeiler, Matthew D and Krishnan, Dilip and Taylor, Graham W and Fergus, Rob},
-	Booktitle = {Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference on},
-	Date-Added = {2017-08-24 14:46:32 +0000},
-	Date-Modified = {2017-08-24 14:46:32 +0000},
-	Organization = {IEEE},
-	Pages = {2528--2535},
-	Title = {Deconvolutional networks},
-	Year = {2010}}
 
 @inproceedings{zeiler:20102a,
 	Author = {Zeiler, Matthew D and Krishnan, Dilip and Taylor, Graham W and Fergus, Rob},
