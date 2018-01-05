@@ -283,6 +283,9 @@
 
 
 
+* D. Nouri.  
+[**Using deep learning to listen for whales**](http://danielnouri.org/notes/2014/01/10/using-deep-learning-to-listen-for-whales/). 2014.
+
 * I. Osband, C. Blundell, A. Pritzel, and B. V. Roy.  
 [**Deep Exploration via Bootstrapped DQN**](https://arxiv.org/abs/1602.04621). 2016.
 
@@ -415,6 +418,14 @@
 
 * J. Z. Leibo, V. Zambaldi, M. Lanctot, J. Marecki, and T. Graepel.  
 [**Multi-agent Reinforcement Learning in Sequential Social Dilemmas**](https://arxiv.org/abs/1702.03037). 2017.
+
+
+
+* L. Yu.  
+[**Paper Collection of Multi-Agent Reinforcement Learning (MARL)**](https://github.com/LantaoYu/MARL-Papers#review-papers).  GitHub. 2017.
+
+* D. Bloembergen, D. Hennes, M. Kaisers, and P. Vrancx.  
+**Multiagent Reinforcement Learning**. ECML, 2013.
 
 
 
