@@ -1,112 +1,60 @@
+* D. Silver, G. Lever, N. Heess, T. Degris, D. Wierstra, and M. Riedmiller.  
+**Deterministic policy gradient algorithms**. ICML, 2014.
 
-* D. Kriesel.  
-[**A brief Introduction on Neural Networks**](http://www.dkriesel.com/_media/science/neuronalenetze-en-zeta2-2col-dkrieselcom.pdf). 2007.
-
-
-
-* H.-T. Cheng, L. Koc, J. Harmsen, T. Shaked, T. Chandra, H. Aradhye, G. Anderson, G. Corrado, W. Chai, M. Ispir, R. Anil, Z. Haque, L. Hong, V. Jain, X. Liu, and H. Shah.  
-[**Wide & Deep Learning for Recommender Systems**](https://arxiv.org/abs/1606.07792). 2016.
+* T. P. Lillicrap, J. J. Hunt, A. Pritzel, N. Heess, T. Erez, Y. Tassa, D. Silver, and D. Wierstra.  
+[**Continuous control with deep reinforcement learning**](https://arxiv.org/abs/1509.02971). 2015.
 
 
 
-* R. H. Webb and others.  
-**Two approaches to macroeconomic forecasting**. Economic Quarterly-Federal Reserve Bank of Richmond, 85(3):23--40, 1999.
+* D. Bloembergen, D. Hennes, M. Kaisers, and P. Vrancx.  
+[**Multiagent Reinforcement Learning**](http://www.ecmlpkdd2013.org/wp-content/uploads/2013/09/Multiagent-Reinforcement-Learning.pdf). ECML, 2013.
 
 
 
-* J. Hartford, G. Lewis, K. Leyton-Brown, and M. Taddy.  
-[**Counterfactual Prediction with Deep Instrumental Variables Networks**](https://arxiv.org/abs/1612.09596). 2016.
+* L. Yu.  
+[**Paper Collection of Multi-Agent Reinforcement Learning (MARL)**](https://github.com/LantaoYu/MARL-Papers#review-papers).  GitHub. 2017.
+
+* J. Z. Leibo, V. Zambaldi, M. Lanctot, J. Marecki, and T. Graepel.  
+[**Multi-agent Reinforcement Learning in Sequential Social Dilemmas**](https://arxiv.org/abs/1702.03037). 2017.
 
 
 
-* L. Kaiser, O. Nachum, A. Roy, and S. Bengio.  
-[**Learning to Remember Rare Events**](https://openreview.net/pdf?id=SJTQLdqlg). ICLR, 2017.
+* A. Marinescu, I. Dusparic, A. Taylor, V. Cahill, and S. Clarke.  
+[**Decentralised Multi-Agent Reinforcement Learning for Dynamic and Uncertain Environments**](https://arxiv.org/abs/1409.4561). 2014.
 
 
 
-* B. Amos and J. Z. Kolter.  
-[**OptNet: Differentiable Optimization as a Layer in Neural Networks**](https://arxiv.org/abs/1703.00443). 2017.
+* S. Omidshafiei, J. Pazis, C. Amato, J. P. How, and J. Vian.  
+[**Deep Decentralized Multi-task Multi-Agent Reinforcement Learning under Partial Observability**](https://arxiv.org/abs/1703.06182). 2017.
 
 
 
-* O. Nachum, M. Norouzi, K. Xu, and D. Schuurmans.  
-[**Bridging the Gap Between Value and Policy Based Reinforcement Learning**](https://arxiv.org/abs/1702.08892). 2017.
+* J. Foerster, N. Nardelli, G. Farquhar, T. Afouras, P. H. S. Torr, P. Kohli, and S. Whiteson.  
+[**Stabilising Experience Replay for Deep Multi-Agent Reinforcement Learning**](https://arxiv.org/abs/1702.08887). 2017.
 
 
 
-* X. Mao, Q. Li, H. Xie, R. Y. K. Lau, and Z. Wang.  
-[**Least Squares Generative Adversarial Networks**](https://arxiv.org/abs/1611.04076). 2016.
+* R. Lowe, Y. Wu, A. Tamar, J. Harb, P. Abbeel, and I. Mordatch.  
+[**Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments**](https://arxiv.org/abs/1706.02275). 2017.
 
 
 
-* E. Parisotto and R. Salakhutdinov.  
-[**Neural Map: Structured Memory for Deep Reinforcement Learning**](https://arxiv.org/abs/1702.08360). 2017.
+* L. Busoniu, R. Babuska, and B. De Schutter.  
+[**A comprehensive survey of multiagent reinforcement learning**](http://www.dcsc.tudelft.nl/~bdeschutter/pub/rep/07_019.pdf). IEEE Transactions on Systems, Man, And Cybernetics-Part C: Applications and Reviews, 38 (2), 2008, 2008.
 
 
 
-* H. Wang and B. Raj.  
-[**On the Origin of Deep Learning**](https://arxiv.org/abs/1702.07800). 2017.
+* L. Busoniu, R. Babu\vska, and B. De Schutter.  
+[**Multi-agent reinforcement learning: An overview**](http://www.dcsc.tudelft.nl/~bdeschutter/pub/rep/10_003.pdf). Innovations in multi-agent systems and applications-1, 310:183--221, 2010.
 
 
 
-* Z.-H. Zhou and J. Feng.  
-[**Deep Forest: Towards An Alternative to Deep Neural Networks**](https://arxiv.org/abs/1702.08835). 2017.
+* D. Bloembergen, K. Tuyls, D. Hennes, and M. Kaisers.  
+[**Evolutionary Dynamics of Multi-Agent Learning: A Survey.**](https://jair.org/media/4818/live-4818-8818-jair.pdf). J. Artif. Intell. Res.(JAIR), 53:659--697, 2015.
 
 
-* Y. Gal.  
-**Uncertainty in Deep Learning**. University of Cambridge, 2016.
-
-* Y. Gal and Z. Ghahramani.  
-[**Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning**](https://arxiv.org/abs/1506.02142). 2015.
-
-
-* Y. Gal and Z. Ghahramani.  
-[**Dropout as a Bayesian approximation: Insights and applications**](http://ece.duke.edu/~lcarin/Chunyuan1.15.2016.pdf%20,%20https://arxiv.org/abs/1506.02157). Deep Learning Workshop, ICML, 2015.
-
-* M. A. Nielsen.  
-**Neural networks and deep learning**. URL: http://neuralnetworksanddeeplearning. com/.(visited: 01.11. 2014), 2015.
-
-
-
-* M. Qi and G. P. Zhang.  
-**Trend time--series modeling and forecasting with neural networks**. IEEE Transactions on neural networks, 19(5):808--816, 2008.
-
-
-
-* Y. Li.  
-[**Deep Reinforcement Learning: An Overview**](https://arxiv.org/abs/1701.07274). 2017.
-
-
-
-* Y. Li and Y. Gal.  
-[**Dropout Inference in Bayesian Neural Networks with Alpha-divergences**](https://arxiv.org/abs/1703.02914). 2017.
-
-
-
-* S. S. Hansen.  
-[**Deep Episodic Value Iteration for Model-based Meta-Reinforcement Learning**](https://arxiv.org/abs/1705.03562). 2017.
-
-
-
-* G. Huang, Y. Li, G. Pleiss, Z. Liu, J. E. Hopcroft, and K. Q. Weinberger.  
-[**Snapshot Ensembles: Train 1, get M for free**](https://arxiv.org/abs/1704.00109). 2017.
-
-
-
-* J. Gehring, M. Auli, D. Grangier, D. Yarats, and Y. N. Dauphin.  
-[**Convolutional Sequence to Sequence Learning**](https://arxiv.org/abs/1705.03122). 2017.
-
-
-
-* B. Zoph and Q. V. Le.  
-[**Neural Architecture Search with Reinforcement Learning**](https://arxiv.org/abs/1611.01578). 2016.
-
-
-
-* Y. Gal, J. Hron, and A. Kendall.  
-[**Concrete Dropout**](https://arxiv.org/abs/1705.07832). 2017.
-
-
+* A. O. Castaneda.  
+[**Deep Reinforcement Learning Variants of Multi-Agent Learning Algorithms**](https://project-archive.inf.ed.ac.uk/msc/20162091/msc_proj.pdf). Master's thesis, School of Informatics, University of Edinburgh, 2016.
 
 * O. Abdel-Hamid, A.-R. Mohamed, H. Jiang, L. Deng, G. Penn, and D. Yu.  
 **Convolutional neural networks for speech recognition**. IEEE/ACM Transactions on audio, speech, and language processing, 22(10):1533--1545, 2014.
@@ -378,54 +326,113 @@
 [**How transferable are features in deep neural networks?**](https://arxiv.org/abs/1411.1792). Advances in neural information processing systems, 3320--3328, 2014.
 * M. D. Zeiler, D. Krishnan, G. W. Taylor, and R. Fergus.  
 **Deconvolutional networks**. Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference on, 2528--2535, 2010.
-* A. O. Castaneda.  
-**Deep Reinforcement Learning Variants of Multi-Agent Learning Algorithms**. Master’s thesis, School of Informatics, University of Edinburgh, 2016.
 
-* D. Bloembergen, K. Tuyls, D. Hennes, and M. Kaisers.  
-**Evolutionary Dynamics of Multi-Agent Learning: A Survey.**. J. Artif. Intell. Res.(JAIR), 53:659--697, 2015.
+* Y. Gal, J. Hron, and A. Kendall.  
+[**Concrete Dropout**](https://arxiv.org/abs/1705.07832). 2017.
 
 
 
-* L. Busoniu, R. Babu\vska, and B. De Schutter.  
-**Multi-agent reinforcement learning: An overview**. Innovations in multi-agent systems and applications-1, 310:183--221, 2010.
+* B. Zoph and Q. V. Le.  
+[**Neural Architecture Search with Reinforcement Learning**](https://arxiv.org/abs/1611.01578). 2016.
 
 
 
-* L. Busoniu, R. Babuska, and B. De Schutter.  
-**A comprehensive survey of multiagent reinforcement learning**. IEEE Transactions on Systems, Man, And Cybernetics-Part C: Applications and Reviews, 38 (2), 2008, 2008.
+* J. Gehring, M. Auli, D. Grangier, D. Yarats, and Y. N. Dauphin.  
+[**Convolutional Sequence to Sequence Learning**](https://arxiv.org/abs/1705.03122). 2017.
 
 
 
-* R. Lowe, Y. Wu, A. Tamar, J. Harb, P. Abbeel, and I. Mordatch.  
-[**Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments**](https://arxiv.org/abs/1706.02275). 2017.
+* G. Huang, Y. Li, G. Pleiss, Z. Liu, J. E. Hopcroft, and K. Q. Weinberger.  
+[**Snapshot Ensembles: Train 1, get M for free**](https://arxiv.org/abs/1704.00109). 2017.
 
 
 
-* J. Foerster, N. Nardelli, G. Farquhar, T. Afouras, P. H. S. Torr, P. Kohli, and S. Whiteson.  
-[**Stabilising Experience Replay for Deep Multi-Agent Reinforcement Learning**](https://arxiv.org/abs/1702.08887). 2017.
+* S. S. Hansen.  
+[**Deep Episodic Value Iteration for Model-based Meta-Reinforcement Learning**](https://arxiv.org/abs/1705.03562). 2017.
 
 
 
-* S. Omidshafiei, J. Pazis, C. Amato, J. P. How, and J. Vian.  
-[**Deep Decentralized Multi-task Multi-Agent Reinforcement Learning under Partial Observability**](https://arxiv.org/abs/1703.06182). 2017.
+* Y. Li and Y. Gal.  
+[**Dropout Inference in Bayesian Neural Networks with Alpha-divergences**](https://arxiv.org/abs/1703.02914). 2017.
 
 
 
-* A. Marinescu, I. Dusparic, A. Taylor, V. Cahill, and S. Clarke.  
-[**Decentralised Multi-Agent Reinforcement Learning for Dynamic and Uncertain Environments**](https://arxiv.org/abs/1409.4561). 2014.
+* Y. Li.  
+[**Deep Reinforcement Learning: An Overview**](https://arxiv.org/abs/1701.07274). 2017.
 
 
 
-* J. Z. Leibo, V. Zambaldi, M. Lanctot, J. Marecki, and T. Graepel.  
-[**Multi-agent Reinforcement Learning in Sequential Social Dilemmas**](https://arxiv.org/abs/1702.03037). 2017.
+* M. Qi and G. P. Zhang.  
+**Trend time--series modeling and forecasting with neural networks**. IEEE Transactions on neural networks, 19(5):808--816, 2008.
 
 
 
-* L. Yu.  
-[**Paper Collection of Multi-Agent Reinforcement Learning (MARL)**](https://github.com/LantaoYu/MARL-Papers#review-papers).  GitHub. 2017.
+* M. A. Nielsen.  
+**Neural networks and deep learning**. URL: http://neuralnetworksanddeeplearning. com/.(visited: 01.11. 2014), 2015.
 
-* D. Bloembergen, D. Hennes, M. Kaisers, and P. Vrancx.  
-**Multiagent Reinforcement Learning**. ECML, 2013.
+
+* Y. Gal and Z. Ghahramani.  
+[**Dropout as a Bayesian approximation: Insights and applications**](http://ece.duke.edu/~lcarin/Chunyuan1.15.2016.pdf%20,%20https://arxiv.org/abs/1506.02157). Deep Learning Workshop, ICML, 2015.
+
+* Y. Gal and Z. Ghahramani.  
+[**Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning**](https://arxiv.org/abs/1506.02142). 2015.
+
+
+* Y. Gal.  
+**Uncertainty in Deep Learning**. University of Cambridge, 2016.
+
+* Z.-H. Zhou and J. Feng.  
+[**Deep Forest: Towards An Alternative to Deep Neural Networks**](https://arxiv.org/abs/1702.08835). 2017.
+
+
+
+* H. Wang and B. Raj.  
+[**On the Origin of Deep Learning**](https://arxiv.org/abs/1702.07800). 2017.
+
+
+
+* E. Parisotto and R. Salakhutdinov.  
+[**Neural Map: Structured Memory for Deep Reinforcement Learning**](https://arxiv.org/abs/1702.08360). 2017.
+
+
+
+* X. Mao, Q. Li, H. Xie, R. Y. K. Lau, and Z. Wang.  
+[**Least Squares Generative Adversarial Networks**](https://arxiv.org/abs/1611.04076). 2016.
+
+
+
+* O. Nachum, M. Norouzi, K. Xu, and D. Schuurmans.  
+[**Bridging the Gap Between Value and Policy Based Reinforcement Learning**](https://arxiv.org/abs/1702.08892). 2017.
+
+
+
+* B. Amos and J. Z. Kolter.  
+[**OptNet: Differentiable Optimization as a Layer in Neural Networks**](https://arxiv.org/abs/1703.00443). 2017.
+
+
+
+* L. Kaiser, O. Nachum, A. Roy, and S. Bengio.  
+[**Learning to Remember Rare Events**](https://openreview.net/pdf?id=SJTQLdqlg). ICLR, 2017.
+
+
+
+* J. Hartford, G. Lewis, K. Leyton-Brown, and M. Taddy.  
+[**Counterfactual Prediction with Deep Instrumental Variables Networks**](https://arxiv.org/abs/1612.09596). 2016.
+
+
+
+* R. H. Webb and others.  
+**Two approaches to macroeconomic forecasting**. Economic Quarterly-Federal Reserve Bank of Richmond, 85(3):23--40, 1999.
+
+
+
+* H.-T. Cheng, L. Koc, J. Harmsen, T. Shaked, T. Chandra, H. Aradhye, G. Anderson, G. Corrado, W. Chai, M. Ispir, R. Anil, Z. Haque, L. Hong, V. Jain, X. Liu, and H. Shah.  
+[**Wide & Deep Learning for Recommender Systems**](https://arxiv.org/abs/1606.07792). 2016.
+
+
+
+* D. Kriesel.  
+[**A brief Introduction on Neural Networks**](http://www.dkriesel.com/_media/science/neuronalenetze-en-zeta2-2col-dkrieselcom.pdf). 2007.
 
 
 
