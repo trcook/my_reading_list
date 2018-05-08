@@ -1,6 +1,28 @@
 
-* D. Ha and J. Schmidhuber.  
-[**World Models**](https://arxiv.org/abs/1803.10122). 2018.
+* W. Lin, M. E. Khan, and N. Hubacher.  
+[**Variational Message Passing with Structured Inference Networks**](https://openreview.net/forum?id=HyH9lbZAW). International Conference on Learning Representations, 2018.
+
+* T. Kurutach, I. Clavera, Y. Duan, A. Tamar, and P. Abbeel.  
+[**Model-Ensemble Trust-Region Policy Optimization**](https://openreview.net/forum?id=SJJinbWRZ). International Conference on Learning Representations, 2018.
+
+* B. Athiwaratkun and A. G. Wilson.  
+[**On Modeling Hierarchical Data via Probabilistic Order Embeddings**](https://openreview.net/forum?id=HJCXZQbAZ). International Conference on Learning Representations, 2018.
+
+* K. Zolna, D. Arpit, D. Suhubdy, and Y. Bengio.  
+[**Fraternal Dropout**](https://openreview.net/forum?id=SJyVzQ-C-). International Conference on Learning Representations, 2018.
+
+* K. Lee, H. Kim, and C. Suh.  
+[**Simulated+Unsupervised Learning With Adaptive Data Generation and Bidirectional Mappings**](https://openreview.net/forum?id=SkHDoG-Cb). International Conference on Learning Representations, 2018.
+
+* K. Hausman, J. T. Springenberg, Z. Wang, N. Heess, and M. Riedmiller.  
+[**Learning an Embedding Space for Transferable Robot Skills**](https://openreview.net/forum?id=rk07ZXZRb). International Conference on Learning Representations, 2018.
+
+* K. Lee, H. Kim, and C. Suh.  
+[**Simulated+Unsupervised Learning With Adaptive Data Generation and Bidirectional Mappings**](https://openreview.net/forum?id=SkHDoG-Cb). International Conference on Learning Representations, 2018.
+
+* A. R. Barron.  
+**Approximation and estimation bounds for artificial neural networks**. Machine Learning, 14(1):115--133, 1994.
+
 
 
 * D. Silver, G. Lever, N. Heess, T. Degris, D. Wierstra, and M. Riedmiller.  
@@ -60,6 +82,7 @@
 
 * A. O. Castaneda.  
 [**Deep Reinforcement Learning Variants of Multi-Agent Learning Algorithms**](https://project-archive.inf.ed.ac.uk/msc/20162091/msc_proj.pdf). Master's thesis, School of Informatics, University of Edinburgh, 2016.
+
 * C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich.  
 [**Going deeper with convolutions**](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf). Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 1--9, 2015.
 
@@ -67,8 +90,10 @@
 **Auto-association by multilayer perceptrons and singular value decomposition**. Biological cybernetics, 59(4-5):291--294, 1988.
 
 
+
 * M. D. Zeiler, D. Krishnan, G. W. Taylor, and R. Fergus.  
 **Deconvolutional networks**. Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference on, 2528--2535, 2010.
+
 * J. Yosinski, J. Clune, Y. Bengio, and H. Lipson.  
 [**How transferable are features in deep neural networks?**](https://arxiv.org/abs/1411.1792). Advances in neural information processing systems, 3320--3328, 2014.
 
@@ -76,8 +101,10 @@
 [**Deep neural networks for time series prediction with applications in ultra-short-term wind forecasting**](https://www.fer.unizg.hr/_download/repository/KDI-Djalto.pdf). Rn ($\Theta$1), 1(2).
 
 
+
 * F.-F. Li, A. Karpathy, and J. Johnson.  
 [**CS231n: Convolutional Neural Networks for Visual Recognition**](http://cs231n.stanford.edu/). CS231n: Convolutional Neural Networks for Visual Recognition, 2016.
+
 * F.-F. Li, A. Karpathy, and J. Johnson.  
 [**CS231n: Convolutional Neural Networks for Visual Recognition**](https://www.youtube.com/playlist?list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg). CS231n: Convolutional Neural Networks for Visual Recognition, 2016.
 
@@ -190,6 +217,7 @@
 [**Forecasting S\&amp;P 500 index using artificial neural networks and design of experiments**](http://dx.doi.org/10.1186/2251-712X-9-1). Journal of Industrial Engineering International, 9(1):1, 2013.
 
 
+
 * L. Deng and J. C. Platt.  
 **Ensemble deep learning for speech recognition**. INTERSPEECH, 2014.
 
@@ -205,6 +233,7 @@
 
 * J. Heinrich and D. Silver.  
 [**Deep Reinforcement Learning from Self-Play in Imperfect-Information Games**](https://arxiv.org/abs/1603.01121). 2016.
+
 
 
 * J. S. Hartford, J. R. Wright, and K. Leyton-Brown.  
@@ -249,6 +278,7 @@
 [**Encoding Temporal Markov Dynamics in Graph for Time Series Visualization**](https://arxiv.org/abs/1610.07273). 2016.
 
 
+
 * L. Ye and E. Keogh.  
 [**Time series shapelets: a new primitive for data mining**](http://alumni.cs.ucr.edu/~lexiangy/Shapelet/kdd2009shapelet.pdf). Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining, 947--956, 2009.
 
@@ -277,6 +307,7 @@
 
 * F. Rosenblatt.  
 **The perceptron: A probabilistic model for information storage and organization in the brain.**. Psychological review, 65(6):386, 1958.
+
 
 
 * R. E. Lucas.  
@@ -374,6 +405,7 @@
 
 * M. A. Nielsen.  
 **Neural networks and deep learning**. URL: http://neuralnetworksanddeeplearning. com/.(visited: 01.11. 2014), 2015.
+
 
 
 * Y. Gal and Z. Ghahramani.  
